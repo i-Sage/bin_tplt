@@ -12,6 +12,16 @@ This repo is a starting point for creating C++ projects that produce executable 
 
 ### Building and Usage
 
-Run the following command: cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=%VCPKG_ROOT%\scripts\buildsystems\vcpkg.cmake, but substitute %VCPKG_ROOT% with your vcpkg installation path.
+Run the following command:
 
-Run the following command to build the project cmake --build build
+```shell
+cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=%VCPKG_ROOT%\scripts\buildsystems\vcpkg.cmake
+```
+
+But substitute %VCPKG_ROOT% with your vcpkg installation path.
+
+Run the following command to build the project
+
+```shell
+cmake --build build
+```
